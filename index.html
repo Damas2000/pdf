@@ -1,278 +1,340 @@
 <!DOCTYPE html>
 <html>
-<body style="margin: 0; background: #f5f5f5;">
-  <div style="width: 100%; max-width: 1000px; margin: 0 auto;">
+<head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.js"></script>
+  
+</head>
+<body class="bg-gray-50">
+  <div class="max-w-6xl mx-auto p-6">
     <!-- Cover Slide -->
-    <div style="background: #1a365d; color: white; padding: 40px; margin: 20px 0; border-radius: 2px; text-align: center;">
-      <h1 style="font-size: 36px; margin-bottom: 20px;">Mobile ERP Solution</h1>
-      <h2 style="font-size: 24px; font-weight: normal;">Business Process Digitalization Project</h2>
-      <div style="margin-top: 40px;">
-        <img src="./New-Logo.webp" alt="Company Logo" style="border-radius: 2px; background: white; padding: 20px; margin-bottom: 20px;width: 250px; height: auto;">
-      </div>
-    </div>
-
-    <!-- Current State Slide -->
-    <div style="background: white; padding: 30px; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      <h2 style="color: #1a365d; margin-bottom: 30px;">Current State</h2>
-      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-        <div style="background: #f8fafc; padding: 20px; border-radius: 8px;">
-          <h3 style="color: #dc2626;">Project Management</h3>
-          <p>• Incomplete information flow</p>
-          <p>• Delayed communication</p>
-          <p>• Revision confusion</p>
-        </div>
-        <div style="background: #f8fafc; padding: 20px; border-radius: 8px;">
-          <h3 style="color: #dc2626;">Warehouse Management</h3>
-          <p>• TR-USA inventory tracking challenges</p>
-          <p>• Irregular record-keeping system</p>
-          <p>• Product mix-ups</p>
+    <div class="bg-gradient-to-br from-gray-900 to-gray-800 text-white p-16 rounded-lg shadow-xl mb-8">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-5xl font-bold mb-4">Mobile ERP Solution</h1>
+        <p class="text-2xl text-gray-300 mb-12">Business Process Digitalization Project</p>
+        <div class="inline-flex items-center justify-center space-x-4">
+          <i data-lucide="smartphone" class="w-12 h-12"></i>
+          <i data-lucide="database" class="w-12 h-12"></i>
+          <i data-lucide="settings" class="w-12 h-12"></i>
         </div>
       </div>
     </div>
 
-    <!-- Solution Modules Slide -->
-    <div style="background: white; padding: 30px; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      <h2 style="color: #1a365d; margin-bottom: 30px;">Solution Modules</h2>
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
-        <div style="text-align: center; padding: 20px;">
-          <img src="./Takvim.png" alt="Project Management" style="padding: 15px; width: 100px; height: auto;"/>
-          <h3>Project Management</h3>
-          <p>Digital tracking system</p>
+    <!-- Current State -->
+    <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8">Current State</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+          <div class="flex items-center mb-4">
+            <i data-lucide="alert-circle" class="w-6 h-6 text-red-500 mr-3"></i>
+            <h3 class="text-xl font-semibold text-gray-800">Project Management</h3>
+          </div>
+          <ul class="space-y-3 text-gray-600">
+            <li class="flex items-center">
+              <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2"></i>
+              Incomplete information flow
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2"></i>
+              Delayed communication
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2"></i>
+              Revision confusion
+            </li>
+          </ul>
         </div>
-        <div style="text-align: center; padding: 20px;">
-          <img src="./Depo.png" alt="Warehouse Management" style="padding: 15px; width: 100px; height: auto;"/>
-          <h3>Warehouse Management</h3>
-          <p>QR code integration</p>
-        </div>
-        <div style="text-align: center; padding: 20px;">
-          <img src="./urun-yonetimi.png" alt="Production Management" style="padding: 15px; width: 100px; height: auto;"/>
-          <h3>Production Management</h3>
-          <p>Real-time tracking system</p>
+        
+        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+          <div class="flex items-center mb-4">
+            <i data-lucide="package" class="w-6 h-6 text-red-500 mr-3"></i>
+            <h3 class="text-xl font-semibold text-gray-800">Warehouse Management</h3>
+          </div>
+          <ul class="space-y-3 text-gray-600">
+            <li class="flex items-center">
+              <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2"></i>
+              TR-USA inventory tracking challenges
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2"></i>
+              Irregular record-keeping system
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2"></i>
+              Product mix-ups
+            </li>
+          </ul>
         </div>
       </div>
     </div>
 
-    <!-- Expected Benefits Slide -->
-    <div style="background: white; padding: 30px; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      <h2 style="color: #1a365d; margin-bottom: 30px;">Expected Benefits</h2>
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
-        <div style="background: #f0fdfa; padding: 20px; border-radius: 8px; text-align: center;">
-          <img src="./Verimlilik.png" alt="Efficiency" style="padding: 10px; width: 100px; height: auto;"/>
-          <h3>Efficiency</h3>
-          <p>40% time savings</p>
+    <!-- Solution Modules -->
+    <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8">Solution Modules</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+          <i data-lucide="calendar" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Project Management</h3>
+          <p class="text-gray-600">Digital tracking system</p>
         </div>
-        <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; text-align: center;">
-          <img src="./Kalite.png" alt="Quality" style="padding: 10px; width: 100px; height: auto;"/>
-          <h3>Quality</h3>
-          <p>Reduced error rates</p>
+        
+        <div class="text-center p-6 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+          <i data-lucide="warehouse" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Warehouse Management</h3>
+          <p class="text-gray-600">QR code integration</p>
         </div>
-        <div style="background: #fef2f2; padding: 20px; border-radius: 8px; text-align: center;">
-          <img src="./Musteri.png" alt="Customer" style="padding: 10px; width: 100px; height: auto;"/>
-          <h3>Customer Satisfaction</h3>
-          <p>Quick response times</p>
+        
+        <div class="text-center p-6 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+          <i data-lucide="settings" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Production Management</h3>
+          <p class="text-gray-600">Real-time tracking system</p>
         </div>
       </div>
     </div>
 
-    <!-- Solution Alternatives Title Slide -->
-    <div style="background: #1a365d; color: white; padding: 40px; margin: 20px 0; border-radius: 10px; text-align: center;">
-      <h1 style="font-size: 36px; margin-bottom: 20px;">Solution Alternatives</h1>
-      <h2 style="font-size: 24px; font-weight: normal;">Two Different Approaches Based on Requirements</h2>
+    <!-- Expected Benefits -->
+    <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8">Expected Benefits</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-blue-50 p-6 rounded-lg text-center">
+          <i data-lucide="trending-up" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Efficiency</h3>
+          <p class="text-gray-600">40% time savings</p>
+        </div>
+        
+        <div class="bg-green-50 p-6 rounded-lg text-center">
+          <i data-lucide="check-circle" class="w-12 h-12 text-green-600 mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Quality</h3>
+          <p class="text-gray-600">Reduced error rates</p>
+        </div>
+        
+        <div class="bg-purple-50 p-6 rounded-lg text-center">
+          <i data-lucide="heart" class="w-12 h-12 text-purple-600 mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Customer Satisfaction</h3>
+          <p class="text-gray-600">Quick response times</p>
+        </div>
+      </div>
     </div>
 
-    <!-- Alternative Solutions Slide -->
-    <div style="background: white; padding: 30px; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px;">
-        <!-- Basic Solution -->
-        <div style="background: #f8fafc; padding: 25px; border-radius: 8px; border: 2px solid #3b82f6;">
-          <h2 style="color: #1a365d; text-align: center; margin-bottom: 20px;">Solution 1: Warehouse Management System</h2>
+    <!-- Solution Alternatives Title -->
+    <div class="bg-gradient-to-br from-gray-900 to-gray-800 text-white p-12 rounded-lg shadow-xl mb-8 text-center">
+      <h2 class="text-4xl font-bold mb-4">Solution Alternatives</h2>
+      <p class="text-xl text-gray-300">Two Different Approaches Based on Requirements</p>
+    </div>
+
+    <!-- Alternative Solutions -->
+    <div class="grid md:grid-cols-2 gap-8 mb-8">
+      <!-- Basic Solution -->
+      <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-blue-500">
+        <div class="text-center mb-6">
+          <i data-lucide="package" class="w-12 h-12 text-blue-500 mx-auto mb-4"></i>
+          <h3 class="text-2xl font-bold text-gray-800">Solution 1: Warehouse Management System</h3>
+        </div>
+        
+        <div class="space-y-6">
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <h4 class="text-lg font-semibold text-gray-800 mb-3">Scope</h4>
+            <ul class="space-y-2">
+              <li class="flex items-center text-gray-600">
+                <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
+                QR Code System
+              </li>
+              <li class="flex items-center text-gray-600">
+                <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
+                Warehouse Tracking (TR-USA)
+              </li>
+              <li class="flex items-center text-gray-600">
+                <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
+                Inventory Management
+              </li>
+            </ul>
+          </div>
           
-          <div style="background: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
-            <h3 style="color: #3b82f6; margin-bottom: 10px;">Scope</h3>
-            <ul style="list-style-type: none; padding: 0;">
-              <li style="margin-bottom: 8px;">✓ QR Code System</li>
-              <li style="margin-bottom: 8px;">✓ Warehouse Tracking (TR-USA)</li>
-              <li style="margin-bottom: 8px;">✓ Inventory Management</li>
-            </ul>
-          </div>
-
-          <div style="background: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
-            <h3 style="color: #3b82f6; margin-bottom: 10px;">Advantages</h3>
-            <ul style="list-style-type: none; padding: 0;">
-              <li style="margin-bottom: 8px;">• Rapid Implementation</li>
-              <li style="margin-bottom: 8px;">• Low Cost</li>
-              <li style="margin-bottom: 8px;">• Easy Adaptation</li>
-            </ul>
-          </div>
-
-          <div style="background: white; padding: 15px; border-radius: 8px;">
-            <h3 style="color: #3b82f6; margin-bottom: 10px;">Duration & Cost</h3>
-            <p>✓ 8-10 Weeks</p>
-            <p>✓ 15,000 USD</p>
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <h4 class="text-lg font-semibold text-gray-800 mb-3">Timeline & Investment</h4>
+            <div class="space-y-2 text-gray-600">
+              <p class="flex items-center">
+                <i data-lucide="clock" class="w-5 h-5 text-blue-500 mr-2"></i>
+                8-10 Weeks
+              </p>
+              <p class="flex items-center">
+                <i data-lucide="dollar-sign" class="w-5 h-5 text-blue-500 mr-2"></i>
+                15,000 USD
+              </p>
+            </div>
           </div>
         </div>
+      </div>
 
-        <!-- Comprehensive Solution -->
-        <div style="background: #f8fafc; padding: 25px; border-radius: 8px; border: 2px solid #10b981;">
-          <h2 style="color: #1a365d; text-align: center; margin-bottom: 20px;">Solution 2: Fully Integrated ERP</h2>
+      <!-- Comprehensive Solution -->
+      <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-green-500">
+        <div class="text-center mb-6">
+          <i data-lucide="layers" class="w-12 h-12 text-green-500 mx-auto mb-4"></i>
+          <h3 class="text-2xl font-bold text-gray-800">Solution 2: Fully Integrated ERP</h3>
+        </div>
+        
+        <div class="space-y-6">
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <h4 class="text-lg font-semibold text-gray-800 mb-3">Scope</h4>
+            <ul class="space-y-2">
+              <li class="flex items-center text-gray-600">
+                <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
+                All Warehouse Features
+              </li>
+              <li class="flex items-center text-gray-600">
+                <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
+                Project Management
+              </li>
+              <li class="flex items-center text-gray-600">
+                <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
+                Production Tracking
+              </li>
+              <li class="flex items-center text-gray-600">
+                <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
+                Invoice Management
+              </li>
+              <li class="flex items-center text-gray-600">
+                <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
+                Customer Relations
+              </li>
+            </ul>
+          </div>
           
-          <div style="background: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
-            <h3 style="color: #10b981; margin-bottom: 10px;">Scope</h3>
-            <ul style="list-style-type: none; padding: 0;">
-              <li style="margin-bottom: 8px;">✓ All Warehouse Features</li>
-              <li style="margin-bottom: 8px;">✓ Project Management</li>
-              <li style="margin-bottom: 8px;">✓ Production Tracking</li>
-              <li style="margin-bottom: 8px;">✓ Workshop Operations Management</li>
-              <li style="margin-bottom: 8px;">✓ Procurement Tracking</li>
-              <li style="margin-bottom: 8px;">✓ Invoice Management</li>
-              <li style="margin-bottom: 8px;">✓ Customer Relations</li>
-            </ul>
-          </div>
-
-          <div style="background: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
-            <h3 style="color: #10b981; margin-bottom: 10px;">Advantages</h3>
-            <ul style="list-style-type: none; padding: 0;">
-              <li style="margin-bottom: 8px;">• Complete Automation</li>
-              <li style="margin-bottom: 8px;">• Centralized Management</li>
-              <li style="margin-bottom: 8px;">• Detailed Reporting</li>
-              <li style="margin-bottom: 8px;">• Future Expansion Capability</li>
-            </ul>
-          </div>
-
-          <div style="background: white; padding: 15px; border-radius: 8px;">
-            <h3 style="color: #10b981; margin-bottom: 10px;">Duration & Cost</h3>
-            <p>✓ 18-25 Weeks</p>
-            <p>✓ 40,000 USD</p>
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <h4 class="text-lg font-semibold text-gray-800 mb-3">Timeline & Investment</h4>
+            <div class="space-y-2 text-gray-600">
+              <p class="flex items-center">
+                <i data-lucide="clock" class="w-5 h-5 text-green-500 mr-2"></i>
+                18-25 Weeks
+              </p>
+              <p class="flex items-center">
+                <i data-lucide="dollar-sign" class="w-5 h-5 text-green-500 mr-2"></i>
+                40,000 USD
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="max-w-7xl mx-auto bg-white rounded-xl shadow-lg p-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8">Comprehensive Feature Comparison</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse">
+          <thead>
+            <tr>
+              <th class="px-6 py-4 text-left text-gray-800 font-semibold border border-gray-200">Feature</th>
+              <th class="px-6 py-4 text-center text-gray-800 font-semibold border border-gray-200">Warehouse Management</th>
+              <th class="px-6 py-4 text-center text-gray-800 font-semibold border border-gray-200">Full ERP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-6 py-3 text-gray-800 font-semibold border border-gray-200">Warehouse Management</td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">QR Code System</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">TR-USA Warehouse Integration</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Inventory Tracking</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-800 font-semibold border border-gray-200">Production Management</td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Production Phase Monitoring</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Quality Control System</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Workshop Operations Tracking</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-800 font-semibold border border-gray-200">Project Management</td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Project Tracking</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Task Assignment</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-800 font-semibold border border-gray-200">Design Management</td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Revision Tracking</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">File Sharing</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-800 font-semibold border border-gray-200">Procurement</td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Purchase Order Tracking</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-800 font-semibold border border-gray-200">Invoice Management</td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Invoice Generation</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
 
-    <!-- Detailed Comparison Table -->
-    <div style="background: white; padding: 30px; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      <h2 style="color: #1a365d; margin-bottom: 30px;">Comprehensive Feature Comparison</h2>
-      <table style="width: 100%; border-collapse: collapse;">
-          <tr style="background: #f8fafc;">
-              <th style="padding: 15px; text-align: left; border: 1px solid #e2e8f0;">Feature</th>
-              <th style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">Warehouse Management</th>
-              <th style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">Full ERP</th>
-          </tr>
-          <!-- Warehouse Management -->
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0; font-weight: bold;">Warehouse Management</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">QR Code System</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">TR-USA Warehouse Integration</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Inventory Tracking</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <!-- Production Management -->
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0; font-weight: bold;">Production Management</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Production Phase Monitoring</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Quality Control System</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Workshop Operations Tracking</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <!-- Project Management -->
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0; font-weight: bold;">Project Management</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Project Tracking</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Task Assignment</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <!-- Design Management -->
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0; font-weight: bold;">Design Management</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Revision Tracking</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">File Sharing</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <!-- Procurement -->
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0; font-weight: bold;">Procurement</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Purchase Order Tracking</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <!-- Invoice Management -->
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0; font-weight: bold;">Invoice Management</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Invoice Generation</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Payment Tracking</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-          <!-- Reporting -->
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0; font-weight: bold;">Reporting</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;"></td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">General Reports</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">Basic</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">Detailed</td>
-          </tr>
-          <tr>
-              <td style="padding: 15px; border: 1px solid #e2e8f0;">Executive Reports</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">-</td>
-              <td style="padding: 15px; text-align: center; border: 1px solid #e2e8f0;">✓</td>
-          </tr>
-      </table>
-  </div>
+            <tr>
+              <td class="px-6 py-3 text-gray-800 font-semibold border border-gray-200">Reporting</td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+              <td class="px-6 py-3 text-center border border-gray-200"></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">General Reports</td>
+              <td class="px-6 py-3 text-center border border-gray-200">Basic</td>
+              <td class="px-6 py-3 text-center border border-gray-200">Detailed</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 text-gray-600 border border-gray-200">Executive Reports</td>
+              <td class="px-6 py-3 text-center border border-gray-200">-</td>
+              <td class="px-6 py-3 text-center border border-gray-200">✓</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
